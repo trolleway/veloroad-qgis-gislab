@@ -6,7 +6,7 @@
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="poi_point20111013132720232" name="poi-point">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="railway_station_point20111013132720196" name="railway-station-point">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="railway_station_point20111013132720196" name="Железнодорожные станции">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="poi_polygon20111013132720208" name="poi-polygon">
@@ -86,10 +86,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>10297742.45981422625482082</xmin>
-      <ymin>7543457.22821843158453703</ymin>
-      <xmax>10302034.17620471678674221</xmax>
-      <ymax>7553315.17549189459532499</ymax>
+      <xmin>10296829.18207497708499432</xmin>
+      <ymin>7585557.75454260595142841</ymin>
+      <xmax>10305412.61485595814883709</xmax>
+      <ymax>7605273.64908959157764912</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -161,7 +161,7 @@
         <legendlayerfile isInOverview="0" layerid="poi_point20111013132720232" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="railway-station-point" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Железнодорожные станции" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="railway_station_point20111013132720196" visible="1"/>
       </filegroup>
@@ -3197,7 +3197,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>railway-station-point</layername>
+      <layername>Железнодорожные станции</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -3230,9 +3230,9 @@
       </edittypes>
       <renderer-v2 symbollevels="0" type="RuleRenderer">
         <rules key="{96baf800-c540-438b-b161-3d2f23789231}">
-          <rule filter="RAILWAY = 'station'" key="{a229e72a-81d9-480b-aa74-6b20459c6c7f}" symbol="0" label="station"/>
-          <rule filter="RAILWAY = 'halt'" key="{a229e72a-81d9-480b-aa74-6b20459c6c7f}" symbol="1" label="halt"/>
-          <rule checkstate="0" filter="RAILWAY = 'tram_stop'" key="{80a6c407-88c6-47b4-b584-592816378089}" symbol="2" label="station"/>
+          <rule scalemaxdenom="150000" filter="RAILWAY = 'station'" key="{a229e72a-81d9-480b-aa74-6b20459c6c7f}" symbol="0" scalemindenom="1" label="Станции"/>
+          <rule scalemaxdenom="150000" filter="RAILWAY = 'halt'" key="{a229e72a-81d9-480b-aa74-6b20459c6c7f}" symbol="1" scalemindenom="1" label="Остановочные пункты"/>
+          <rule scalemaxdenom="35000" filter="RAILWAY = 'tram_stop'" key="{29162e91-eedd-4bd4-b870-31907f24f8ee}" symbol="2" scalemindenom="1" label="Трамвайные остановки"/>
         </rules>
         <symbols>
           <symbol alpha="1" type="marker" name="0">
@@ -3278,28 +3278,23 @@
             </layer>
           </symbol>
           <symbol alpha="1" type="marker" name="2">
-            <layer pass="0" class="EllipseMarker" locked="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="255,255,255,255"/>
+              <prop k="color" v="63,63,63,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="rectangle"/>
               <prop k="offset" v="5.55112e-17,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_color" v="144,144,144,255"/>
               <prop k="outline_style" v="solid"/>
               <prop k="outline_width" v="0"/>
               <prop k="outline_width_map_unit_scale" v="0,0"/>
               <prop k="outline_width_unit" v="MM"/>
-              <prop k="size" v="2"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="1.6"/>
               <prop k="size_map_unit_scale" v="0,0"/>
               <prop k="size_unit" v="MM"/>
-              <prop k="symbol_height" v="2.6"/>
-              <prop k="symbol_height_map_unit_scale" v="0,0"/>
-              <prop k="symbol_height_unit" v="MM"/>
-              <prop k="symbol_name" v="rectangle"/>
-              <prop k="symbol_width" v="4"/>
-              <prop k="symbol_width_map_unit_scale" v="0,0"/>
-              <prop k="symbol_width_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
             </layer>
           </symbol>
