@@ -1,7 +1,7 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis projectname="osm_shp" version="2.8.1-Wien">
   <title>osm_shp</title>
-  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
     <layer-tree-layer expanded="0" checked="Qt::Checked" id="railway_station_point20111013132720196" name="Железнодорожные станции">
       <customproperties/>
@@ -9,24 +9,24 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="building_polygon20111013132720092" name="Здания">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Населённые пункты">
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="Населённые пункты">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Города без кружков">
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="Города без кружков">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="settlement_point20111013132720183" name="Города - со смещением">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="settlement_point20111013132720183" name="Города - со смещением">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Города___со_смещением_копия20150324090311213" name="Города - подписи по центру прямыми буквами">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Города___со_смещением_копия20150324090311213" name="Города - подписи по центру прямыми буквами">
           <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Города___подписи_по_центру_прямыми_буквами_копия20150324093705535" name="Посёлки - подписи по центру наклонными буквами">
+        <layer-tree-layer expanded="0" checked="Qt::Checked" id="Города___подписи_по_центру_прямыми_буквами_копия20150324093705535" name="Посёлки - подписи по центру наклонными буквами">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Города___со_смещением_копия20150324094046959" name="Деревни - кружки со смещением наклонными буквами">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="Города___со_смещением_копия20150324094046959" name="Деревни - кружки со смещением наклонными буквами">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Города___кружки_со_смещением_копия20150324100904994" name="Города - кружки со смещением прямыми буквами">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="Города___кружки_со_смещением_копия20150324100904994" name="Города - кружки со смещением прямыми буквами">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -80,10 +80,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>10363376.41054988838732243</xmin>
-      <ymin>7559896.39675956219434738</ymin>
-      <xmax>10371940.23736930824816227</xmax>
-      <ymax>7579582.89764504879713058</ymax>
+      <xmin>10381592.06361904554069042</xmin>
+      <ymin>7349052.67994552571326494</ymin>
+      <xmax>10655634.52184048108756542</xmax>
+      <ymax>7979020.70828109700232744</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -158,32 +158,32 @@
         <legendlayerfile isInOverview="0" layerid="building_polygon20111013132720092" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Населённые пункты">
-      <legendgroup open="true" checked="Qt::Unchecked" name="Города без кружков">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Города - со смещением" showFeatureCount="0">
+    <legendgroup open="false" checked="Qt::Checked" name="Населённые пункты">
+      <legendgroup open="true" checked="Qt::Checked" name="Города без кружков">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Города - со смещением" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="settlement_point20111013132720183" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="settlement_point20111013132720183" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Города - подписи по центру прямыми буквами" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Города - подписи по центру прямыми буквами" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Города___со_смещением_копия20150324090311213" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="Города___со_смещением_копия20150324090311213" visible="1"/>
           </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Посёлки - подписи по центру наклонными буквами" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Посёлки - подписи по центру наклонными буквами" showFeatureCount="0">
           <filegroup open="false" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="Города___подписи_по_центру_прямыми_буквами_копия20150324093705535" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="Города___подписи_по_центру_прямыми_буквами_копия20150324093705535" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Деревни - кружки со смещением наклонными буквами" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Деревни - кружки со смещением наклонными буквами" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Города___со_смещением_копия20150324094046959" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="Города___со_смещением_копия20150324094046959" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Города - кружки со смещением прямыми буквами" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Города - кружки со смещением прямыми буквами" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Города___кружки_со_смещением_копия20150324100904994" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="Города___кружки_со_смещением_копия20150324100904994" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -983,7 +983,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="2e+06" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="2e+06" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>highway_line20111013132720160</id>
       <datasource>./data/highway-line.shp</datasource>
       <title></title>
@@ -2029,7 +2029,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>landuse_polygon_копия20150324114647772</id>
       <datasource>./data/landuse-polygon.shp</datasource>
       <title></title>
@@ -2050,7 +2050,7 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="System">ogr</provider>
+      <provider encoding="UTF-8">ogr</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2278,7 +2278,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="2e+06" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="2e+06" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>railway_line20111013132720220</id>
       <datasource>./data/railway-line.shp</datasource>
       <title></title>
@@ -3814,7 +3814,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="4e+06" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="4e+06" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>vegetation_polygon20111013132720149</id>
       <datasource>./data/vegetation-polygon.shp</datasource>
       <title></title>
@@ -4074,7 +4074,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+06" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+06" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>water_line20111013132720110</id>
       <datasource>./data/water-line.shp</datasource>
       <title></title>
@@ -4437,7 +4437,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>water_polygon20111013132720129</id>
       <datasource>./data/water-polygon.shp</datasource>
       <title></title>
@@ -4578,9 +4578,9 @@
         <property key="labeling/repeatDistanceUnit" value="1"/>
         <property key="labeling/reverseDirectionSymbol" value="false"/>
         <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMax" value="150000"/>
         <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/scaleVisibility" value="true"/>
         <property key="labeling/shadowBlendMode" value="6"/>
         <property key="labeling/shadowColorB" value="0"/>
         <property key="labeling/shadowColorG" value="0"/>
@@ -4697,7 +4697,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Автодороги_большие___подписи_номеров_копия20150324002113821</id>
       <datasource>./data/highway-line.shp</datasource>
       <title></title>
@@ -4718,7 +4718,7 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="System">ogr</provider>
+      <provider encoding="UTF-8">ogr</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -5020,7 +5020,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Автодороги_копия20150323234353836</id>
       <datasource>./data/highway-line.shp</datasource>
       <title></title>
@@ -5041,7 +5041,7 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="System">ogr</provider>
+      <provider encoding="UTF-8">ogr</provider>
       <previewExpression>COALESCE( "OSM_ID", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -5363,7 +5363,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Города___кружки_со_смещением_копия20150324100904994</id>
       <datasource>./data/settlement-point.shp</datasource>
       <title></title>
@@ -5384,7 +5384,7 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="System">ogr</provider>
+      <provider encoding="UTF-8">ogr</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -5662,7 +5662,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Города___подписи_по_центру_прямыми_буквами_копия20150324093705535</id>
       <datasource>./data/settlement-point.shp</datasource>
       <title></title>
@@ -5683,7 +5683,7 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="System">ogr</provider>
+      <provider encoding="UTF-8">ogr</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -6005,7 +6005,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Города___со_смещением_копия20150324090311213</id>
       <datasource>./data/settlement-point.shp</datasource>
       <title></title>
@@ -6026,7 +6026,7 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="System">ogr</provider>
+      <provider encoding="UTF-8">ogr</provider>
       <previewExpression>COALESCE( "OSM_ID", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -6326,7 +6326,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Города___со_смещением_копия20150324094046959</id>
       <datasource>./data/settlement-point.shp</datasource>
       <title></title>
@@ -6347,7 +6347,7 @@
           <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="System">ogr</provider>
+      <provider encoding="UTF-8">ogr</provider>
       <previewExpression>COALESCE( "OSM_ID", '&lt;NULL>' )</previewExpression>
       <vectorjoins/>
       <expressionfields/>
