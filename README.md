@@ -1,5 +1,6 @@
 # veloroad-qgis-gislab
 Клон картостиля veloroad для использования в QGIS для выгрузок в шейпфайлах с gis-lab.info
+Оригинальный стиль: https://github.com/Zverik/veloroad от Zverik
 
 # Использование
 
