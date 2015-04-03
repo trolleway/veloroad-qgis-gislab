@@ -3,6 +3,15 @@
   <title>osm_shp</title>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="boundary_polygon20111013132720119" name="Административные границы">
+      <customproperties>
+        <property key="expandedLegendNodes">
+          <value>{5320627c-edf5-4dd2-9855-a2918ec43ef8}</value>
+          <value>{13f06572-c231-4213-8c2a-de4d443a1298}</value>
+          <value>{3b147672-b48f-4d95-8fcc-823a04e12cca}</value>
+        </property>
+      </customproperties>
+    </layer-tree-layer>
     <layer-tree-layer expanded="0" checked="Qt::Checked" id="railway_station_point20111013132720196" name="Железнодорожные станции">
       <customproperties/>
     </layer-tree-layer>
@@ -65,15 +74,6 @@
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="settlement_polygon20111013132720139" name="Территории населённых пунктов">
       <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Checked" id="boundary_polygon20111013132720119" name="Административные границы">
-      <customproperties>
-        <property key="expandedLegendNodes">
-          <value>{5320627c-edf5-4dd2-9855-a2918ec43ef8}</value>
-          <value>{13f06572-c231-4213-8c2a-de4d443a1298}</value>
-          <value>{3b147672-b48f-4d95-8fcc-823a04e12cca}</value>
-        </property>
-      </customproperties>
     </layer-tree-layer>
   </layer-tree-group>
   <relations/>
@@ -148,6 +148,11 @@
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Административные границы" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="boundary_polygon20111013132720119" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Железнодорожные станции" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="railway_station_point20111013132720196" visible="1"/>
@@ -234,14 +239,9 @@
         <legendlayerfile isInOverview="0" layerid="settlement_polygon20111013132720139" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Административные границы" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="boundary_polygon20111013132720119" visible="1"/>
-      </filegroup>
-    </legendlayer>
   </legend>
   <projectlayers layercount="17">
-    <maplayer minimumScale="0" maximumScale="2e+07" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="2e+07" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="1" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>boundary_polygon20111013132720119</id>
       <datasource>./data/boundary-polygon.shp</datasource>
       <title></title>
@@ -581,7 +581,7 @@
         <property key="labeling/multiLineLabels" value="false"/>
         <property key="labeling/multilineAlign" value="0"/>
         <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Medium"/>
+        <property key="labeling/namedStyle" value="Обычный"/>
         <property key="labeling/obstacle" value="true"/>
         <property key="labeling/placeDirectionSymbol" value="0"/>
         <property key="labeling/placement" value="0"/>
@@ -667,7 +667,7 @@
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
+      <layerTransparency>23</layerTransparency>
       <displayfield>OSM_ID</displayfield>
       <label>0</label>
       <labelattributes>
