@@ -85,10 +85,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>15688399.21987659856677055</xmin>
-      <ymin>5793085.77111067995429039</ymin>
-      <xmax>15904444.65674145147204399</xmax>
-      <ymax>6039156.62896933779120445</ymax>
+      <xmin>15632724.77283466979861259</xmin>
+      <ymin>5666928.44309382606297731</ymin>
+      <xmax>16064815.64656437560915947</xmax>
+      <ymax>6159070.15881114173680544</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -5339,7 +5339,15 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
-        <columns/>
+        <columns>
+          <column width="-1" hidden="0" type="field" name="NAME"/>
+          <column width="-1" hidden="0" type="field" name="NATURAL"/>
+          <column width="-1" hidden="0" type="field" name="WATERWAY"/>
+          <column width="-1" hidden="0" type="field" name="WETLAND"/>
+          <column width="-1" hidden="0" type="field" name="OSM_TYPE"/>
+          <column width="-1" hidden="0" type="field" name="OSM_ID"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
       </attributetableconfig>
       <editform>.</editform>
       <editforminit/>
@@ -5361,7 +5369,7 @@ def my_form_open(dialog, layer, feature):
         <default field="OSM_TYPE" expression=""/>
         <default field="OSM_ID" expression=""/>
       </defaults>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE( "OSM_ID", '&lt;NULL>' )</previewExpression>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Автодороги_большие___подписи_номеров_копия20150324002113821</id>
